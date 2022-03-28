@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <link rel="stylesheet" href=stylesheet.css>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <h1>HL Web Design Wedding Invitation Planner</h1>
+</head>
+<body>
+<div class="center">
+    <section id="forminput">
+        <form>
+            <label for="person1">Person One First Name:</label><br>
+            <input type="text" id="person1" name="person1" value="John" onclick="this.value='';" ><br><br>
+            <label for="person2">Person Two First Name:</label><br>
+            <input type="text" id="person2" name="person2" value="Mary" onclick="this.value='';" ><br><br>
+            <label for="lastname">Last Name of Couple:</label><br>
+            <input type="text" id="lastname" name="lastname" value="Smith" onclick="this.value='';" ><br><br>
+            <label for="weddingdate">Wedding Date</label><br>
+            <input type="date" id="weddingdate" name="weddingdate"  onclick="this.value='';" ><br><br>
+            <label for="weddingtime">Wedding Time</label><br>
+            <input type="weddingtime" id="weddingtime" name="weddingtime" onclick="this.value='';" ><br><br>
+            <label for="venue">Name of Venue</label><br>
+            <input type="text" id="venue" name="venue" value="Mosman Function Center" onclick="this.value='';" ><br><br>
+            <button>Preview</button>
+        </form>
+    </section>
+    <section id="previewoutput">
+        <h2>Wedding Invitation</h2>
+        <p id="person1">John</p><p>and</p><p id="person1">Mary</p><p id="lastname"></p>Smith</p>
+        <p id="weddingdate">dd/mm/yyyy</p>
+        <p id="weddingtime"> --:-- --</p>
+        <p id="venue">Mosman Function Center</p>
+    </section>
+<div>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+h1 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+label {
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    }
+
+#forminput {
+    float: left;
+    width: 50%;
+}
+
+#previewoutput {
+    float: left;
+    width: 50%;
+}
+
+footer {
+    clear: both;
+}
